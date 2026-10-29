@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b1026;
+    color: white;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #151c3d;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+}
+
+header h1 {
+    color: #3de0ff;
+    margin: 10px 0;
+}
+
+/* Menú */
+nav {
+    text-align: center;
+    background-color: #2f8bff;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #ff3d8b;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.caja {
+    background-color: #151c3d;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px black;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #3de0ff;
+    text-align: center;
+}
+
+.bienvenida {
+    text-align: center;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.juego {
+    width: 30%;
+    background-color: #0b1026;
+    border: 2px solid #2f8bff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px black;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.juego img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.genero {
+    color: #9aa6d6;
+}
+
+.precio {
+    color: #3de0ff;
+    font-weight: bold;
+}
+
+.oferta {
+    border-color: #ff3d8b;
+}
+
+.precio-original {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.oferta .precio {
+    color: #ff3d8b;
+}
+
+button {
+    background-color: #2f8bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3d8b;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #151c3d;
+    padding: 20px;
+}
